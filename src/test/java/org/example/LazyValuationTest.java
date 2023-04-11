@@ -41,7 +41,7 @@ public class LazyValuationTest {
                 })
                 .map(trans -> {
                     System.out.println("Add " + trans + " From Name");
-                    return "Mr " + trans;
+                    return "Mr. " + trans;
                 })
                 .forEach(System.out::println);
     }
